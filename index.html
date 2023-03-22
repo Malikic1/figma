@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>NFT-STORE</title>
+    <style></style>
+  </head>
+  <body class="bg-dark text-light">
+    <header
+      class="flex justify-between px-2 md:px-4 lg:px-8 py-4 border-b border-goldensmoke"
+    >
+      <div>
+        <h1 class="text-2xl">
+          <span
+            class="text-golden"
+            style="font-family: 'Courier New', Courier, monospace"
+            ><b>NFT</b></span
+          ><span style="font-family: monospace">STORE</span>
+        </h1>
+      </div>
+      <div>
+        <input
+          type="text"
+          placeholder="search"
+          class="w-full md:w-64 text-golden rounded-sm bg-goldensmoke opacity-25 text-sm pl-2 py-1"
+        />
+      </div>
+      <div class="hidden md:block self-center" id="nav">
+        <nav
+          class="flex flex-col md:flex-row absolute top-16 left-0 bg-darkgrey w-full md:relative md:top-0 md:bg-transparent pb-2 md:pb-0 pl-2 md:pl-0"
+        >
+          <a
+            href=""
+            class="text-lg md:text-base my-1 md:my-0 text-golden border-b border-golden w-12"
+            >Home</a
+          >
+          <a href="" class="text-lg md:text-base md:ml-3 text-whitesmoke"
+            >Collection</a
+          >
+          <a
+            href=""
+            class="text-lg md:text-base my-1 md:my-0 md:ml-3 text-whitesmoke"
+            >Artist</a
+          >
+          <a href="" class="text-lg md:text-base md:ml-3 text-whitesmoke"
+            >Wallet</a
+          >
+          <a
+            href=""
+            class="text-lg md:text-base my-1 md:my-0 md:ml-3 text-whitesmoke"
+            >About Us</a
+          >
+          <a
+            href=""
+            class="w-20 md:ml-3 bg-golden text-dark text-lg md:text-sm border border-golden rounded-sm px-4 py-1 font-bold"
+            >Login</a
+          >
+        </nav>
+      </div>
+      <div class="md:hidden">
+        <button id="menu_btn">
+          <i class="fa-solid fa-bars text-2xl text-goldensmoke"></i>
+        </button>
+      </div>
+    </header>
+    <main class="md:pt-12 px-2 md:px-4 lg:px-8">
+      <br />
+      <div class="flex flex-col-reverse md:flex-row gap-y-3">
+        <section
+          class="flex-col space-y-5 w-full text-center md:text-left self-center"
+        >
+          <h1 class="text-4xl md:text-5xl">
+            Discover
+            <span class="text-golden">Digital Art, Collect and Sell</span>
+            Your Specific
+            <span class="text-golden">NFTs.</span>
+          </h1>
+          <p class="text-whitesmoke">
+            Send and receive money, crypto transfers within your country and
+            abroad online. Guaranteed secured payment and fast transaction
+          </p>
+
+          <button
+            class="text-golden text-sm border border-golden rounded-sm px-4 py-2 font-bold"
+          >
+            Explore Now
+          </button>
+          <button
+            class="bg-golden text-dark text-sm border border-golden rounded-sm px-4 py-2 ml-3 font-bold"
+          >
+            Start Creating
+          </button>
+          <br /><br /><br />
+          <aside class="flex space-x-5 justify-center md:justify-start">
+            <div class="px-4 border-r border-goldensmoke">
+              <span class="text-golden text-xl font-bold">300K+</span><br />
+              <small class="text-whitesmoke">Artwork</small>
+            </div>
+            <div class="pr-4 border-r border-goldensmoke">
+              <span class="text-golden text-xl font-bold">100K+</span><br />
+              <small class="text-whitesmoke">Artist</small>
+            </div>
+            <div class="pr-4 border-r border-goldensmoke">
+              <span class="text-golden text-xl font-bold">150K+</span><br />
+              <small class="text-whitesmoke">Auction</small>
+            </div>
+            <div>
+              <span class="text-golden text-xl font-bold">100K+</span><br />
+              <small class="text-whitesmoke">Active Users</small>
+            </div>
+          </aside>
+        </section>
+        <section class="w-full">
+          <img src="img2.JPEG" alt="" class="" />
+        </section>
+      </div>
+      <br /><br />
+      <div class="flex justify-around flex-col md:flex-row">
+        <section class="w-full">
+          <img src="img1.JPEG" alt="" class="md:max-w-sm m-auto" />
+        </section>
+        <section class="space-y-5 w-full">
+          <h1 class="text-3xl md:text-4xl">
+            <span class="text-golden">Create</span> and
+            <span class="text-golden">Sell</span> Your
+            <span class="text-golden"> NFTs</span>
+          </h1>
+          <div>
+            <h2 class="text-golden text-md"><b>STEP-01</b></h2>
+            <p class="text-lg -mt-1">Create account and Set up your wallet</p>
+            <p class="text-whitesmoke text-sm md:w-3/4 -mt-1 leading-4">
+              Powerful features and inclisions, which makes NS standout,easily
+              customizable scalative.
+            </p>
+          </div>
+          <div class="relative -top-4">
+            <h2 class="text-golden text-md"><b>STEP-02</b></h2>
+            <p class="text-lg -mt-1">Create your Collection</p>
+            <p class="text-whitesmoke text-sm md:w-3/4 -mt-1 leading-4">
+              A great collection of beautiful website template for your need.
+              Choose the best suitable template.
+            </p>
+          </div>
+          <div class="relative -top-8">
+            <h2 class="text-golden text-md"><b>STEP-03</b></h2>
+            <p class="text-lg -mt-1">Add your NFTs</p>
+            <p class="text-whitesmoke text-sm md:w-3/4 -mt-1 leading-4">
+              Proceed to adding your NFTs art to your gallery to enable other
+              user to check them out.
+            </p>
+          </div>
+          <div class="relative -top-12">
+            <h2 class="text-golden text-md"><b>STEP-04</b></h2>
+            <p class="text-lg -mt-1">Sell your NFTs</p>
+            <p class="text-whitesmoke text-sm md:w-3/4 -mt-1 leading-4">
+              Now you're ready. Youre receive different range of bids and also
+              auction out your Art.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <section class="justify-between flex flex-col md:flex-row">
+          <p class="text-3xl">
+            <span class="text-golden">Top </span>Collections
+          </p>
+          <p>
+            <a href="" class="text-golden border-b border-golden">Today</a>
+            <a href="" class="ml-3">Last Week</a>
+            <a href="" class="ml-3">Last Month</a>
+            <a href="" class="ml-3">Last Year</a>
+          </p>
+        </section>
+        <br />
+        <section
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-1 gap-y-4 justify-center"
+        >
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img8.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img10.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img3.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img9.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img7.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img5.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img4.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-56 h-72 m-auto">
+            <img src="img6.jpeg" alt="" class="w-100 h-72 rounded-lg" />
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 mb-1 rounded-sm"
+            >
+              <p class="flex flex-col">
+                <b>Thalyssra</b>
+                <small>Collection tag</small>
+                <small>Fixed price</small>
+              </p>
+              <p class="flex flex-col">
+                <button class="text-dark bg-light text-sm px-2 rounded-sm">
+                  <b>Art</b>
+                </button>
+                <small>#43</small>
+                <small><b>$438.65</b></small>
+              </p>
+            </div>
+            <div
+              class="bg-smoke mx-2 relative -top-32 opacity-75 m-auto flex justify-around py-1 rounded-sm"
+            >
+              <p class="flex flex-col text-center">
+                <b>Theo S</b>
+                <small>Artist</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <b>$8520.67</b>
+                <small>Sold</small>
+              </p>
+              <p class="flex flex-col text-center">
+                <i class="fa-solid fa-circle text-golden"></i>
+                <small>Active</small>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br /><br />
+      <div>
+        <section class="justify-between flex flex-col md:flex-row">
+          <p class="text-3xl"><span class="text-golden">Top </span>Creators</p>
+          <p>
+            <a href="" class="text-golden border-b border-golden">Today</a>
+            <a href="" class="ml-3">Last Week</a>
+            <a href="" class="ml-3">Last Month</a>
+            <a href="" class="ml-3">Last Year</a>
+          </p>
+        </section>
+        <section
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 space-x-5 gap-y-4"
+        >
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Jeremy M. Mark
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$234,567.43</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Reynat John
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$224,888.00</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Mary J. Rodriguez
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$220,160.43</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Collins Gray
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$180,500.43</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Willy V. Jones
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$179,234.43</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Andy Smith
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$114,000.00</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Muhammad Al-Bari
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$92,567.43</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="icon.jpeg"
+              alt=""
+              class="w-24 rounded-full m-auto relative top-10"
+            />
+            <div class="bg-wine pt-10 pb-2 rounded-lg">
+              <p class="font-semibold">
+                Elena Robert
+                <span
+                  ><i
+                    class="fa-solid fa-circle text-royal text-xs relative -top-2"
+                  ></i
+                ></span>
+              </p>
+              <p class="text-base font-semibold text-whitesmoke">$43,067.43</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <br /><br /><br />
+      <div class="grid grid-cols-3 md:grid-cols-4 gap-y-4">
+        <div class="text-2xl">
+          <h2><i class="fa-brands fa-google"></i>oogle</h2>
+        </div>
+        <div class="text-2xl">
+          <h2><i class="fa-brands fa-airbnb"></i>air-bnb</h2>
+        </div>
+        <div class="text-2xl">
+          <h2 style="font-family: cursive">Creative</h2>
+        </div>
+        <div class="text-2xl text-center">
+          <h2><i class="fa-brands fa-shopify"></i>shopify</h2>
+        </div>
+        <div class="text-2xl text-center">
+          <h2>
+            <i class="fa-brands fa-amazon rel" style="top: 0.3rem"></i>mazon
+          </h2>
+        </div>
+        <div class="text-2xl text-right">
+          <h2>
+            <i class="fa-solid fa-circle text-xs -top-2 relative"></i
+            ><b>plasma</b>pay
+          </h2>
+        </div>
+        <div class="text-2xl text-center">
+          <h2>coinbase</h2>
+        </div>
+        <div class="text-base">
+          <h2>
+            <i class="fa-brands fa-paypal"></i><i><b> Pay</b>Pal</i>
+          </h2>
+        </div>
+      </div>
+    </main>
+    <br /><br /><br />
+    <footer class="bg-darkgrey px-4 pt-5 pb-2">
+      <div class="flex flex-col md:flex-row text-center md:text-left gap-y-3">
+        <div class="md:w-1/3">
+          <div class="flex">
+            <h1 class="text-2xl m-auto md:m-0">
+              <span
+                class="text-golden"
+                style="font-family: 'Courier New', Courier, monospace"
+                ><b>NFT</b></span
+              ><span style="font-family: monospace">STORE</span>
+            </h1>
+          </div>
+          <small
+            >We're available for your 24/7 service. <br />
+            Connect with us on our social network
+          </small>
+          <p><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;user@gmail.com</p>
+        </div>
+        <div class="md:w-1/4 text-sm">
+          <ul>
+            <li>
+              <b class="text-golden border-b border-golden">Information</b>
+            </li>
+            <li class="my-1"><a>Home</a></li>
+            <li><a>Collections</a></li>
+            <li class="my-1"><a>Live Auction</a></li>
+            <li><a>Wallet </a></li>
+            <li class="my-1"><a>History</a></li>
+          </ul>
+        </div>
+        <div class="md:w-1/4 text-sm">
+          <ul>
+            <li>
+              <b class="text-golden border-b border-golden">Customer service</b>
+            </li>
+            <li class="my-1"><a>User FAQs</a></li>
+            <li><a>How To Buy</a></li>
+            <li class="my-1"><a>Report Abuse</a></li>
+            <li><a>Terms of Service</a></li>
+            <li class="my-1"><a>Returns and Refund</a></li>
+          </ul>
+        </div>
+        <div class="md:w-1/4 text-sm">
+          <ul>
+            <li><b class="text-golden border-b border-golden">Help</b></li>
+            <li class="my-1"><a></a></li>
+            <li><a>How To Buy</a></li>
+            <li class="my-1"><a>Report Abuse</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li class="my-1"><a>About Us</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="text-center text-sm">
+        ©Copyright 2023 <b class="text-goldensmoke">AzeezCode</b>. All rights
+        reserved
+        <br />
+      </div>
+      <script>
+        var menuButton = document.getElementById("menu_btn");
+        var nav = document.getElementById("nav");
+
+        menuButton.addEventListener("click", function () {
+          nav.classList.toggle("hidden");
+        });
+      </script>
+    </footer>
+  </body>
+</html>
